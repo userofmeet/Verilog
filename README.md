@@ -1,2 +1,2 @@
 # Verilog
-This repository contains all the designs which i have successfully made using the Verilog file in ModelSim and Quartus software
+This repository contains all the designs which i have successfully compiled and verified the timing waveforms using the ModelSim and Quartus software.
