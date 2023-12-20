@@ -5,7 +5,7 @@ module mux(s1,s0,i0,i1,i2,i3,y);
   output y;
   assign y = s1?(s0?i3:i2):(s0?i1:i0);
   endmodule
-
+ 
 #For gate level modelling of the above 4 to 1 mux
 
 module mux(s1,s0,i0,i1,i2,i3,y);
