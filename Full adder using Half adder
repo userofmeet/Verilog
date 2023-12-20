@@ -5,7 +5,7 @@ module fa(x,y,z,s,c);
   HF hf0(w1,w1,x,y);		 
   HF hf1(w3,w4,w1,z);	 
   assign s = w3;			 
-  assign c = w2 | w4; 
+  assign c = w2 | w4;  
 endmodule
 
 module HF(s,c,x,y);
