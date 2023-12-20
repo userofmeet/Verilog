@@ -1,4 +1,4 @@
-module mj(x,y,z,s,c);
+module fa(x,y,z,s,c);
   output s,c;
   input x,y,z;
   wire w1,w2,w3,w4;
