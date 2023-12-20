@@ -1,5 +1,5 @@
 module decoder(y0,y1,y2,y3,y4,y5,y6,y7,s2,s1,s0);
-input s2,s1,s0;
+input s2,s1,s0;  
 output y0,y1,y2,y3,y4,y5,y6,y7;
 assign y7=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
 assign y6=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
