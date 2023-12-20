@@ -3,7 +3,7 @@ input x,y;
 output s,c;
 xor x1(s,x,y);
 and a1(c,x,y);
-endmodule 
+endmodule  
 
 
 #the testbench of half adder circuit for the above half adder verilog code is attached below:-
