@@ -1,25 +1,25 @@
-module ha(x,y,z,s,c);
-input x,y,z;
+module ha(x,y,s,c);
+input x,y;
 output s,c;
-wire w1,w2,w3;
-xor x1(w1,x,y);
-xor x2(s,w1,z);
-and a1(w2,x,y);
-and a2(w3,w1,z);
-or o1(c,w3,w2);
+xor x1(s,x,y);
+and a1(c,x,y);
 endmodule 
+
 
 #the testbench of half adder circuit for the above half adder verilog code is attached below:-
 
 module tb1();
-  reg x,y,z;
+  reg x,y;
   wire c,s;
-  ha h1(x,y,z,s,c);
+  ha h1(x,y,s,c);
   initial 
-  begin
+  begin 
+    x=1'b1;
+    #20;
+    x=1'b0;
+    y=1'b1;
+    #30;
     x=1'b1;
     y=1'b1;
-    z=1'b1;
-  end 
+  end
 endmodule
-        
