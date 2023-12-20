@@ -7,7 +7,7 @@ module adder(x,y,z,s,c);
 endmodule
 
 #Testbench for the above code is given below:-
-
+ 
 module adder();
   reg [3:0] x,y,z;
   wire [3:0]s,c;
