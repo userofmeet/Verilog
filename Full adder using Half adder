@@ -1,0 +1,16 @@
+module mj(x,y,z,s,c);
+  output s,c;
+  input x,y,z;
+  wire w1,w2,w3,w4;
+  HF hf0(w1,w1,x,y);		 
+  HF hf1(w3,w4,w1,z);	 
+  assign s = w3;			 
+  assign c = w2 | w4; 
+endmodule
+
+module HF(s,c,x,y);
+  output s,c;
+  input x,y;
+  assign s = x ^ y;   
+  assign c = x & y; 
+endmodule
