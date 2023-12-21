@@ -16,7 +16,7 @@ endmodule
 module tb();
   reg s0,s1,s2;
   wire y0,y1,y2,y3,y4,y5,y6,y7;
-  a a1(y0,y1,y2,y3,y4,y5,y6,y7,s0,s1,s2);
+  decoder a1(y0,y1,y2,y3,y4,y5,y6,y7,s2,s1,s0);
   initial 
   begin
     s0=1'b1;
