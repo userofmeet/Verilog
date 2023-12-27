@@ -1,16 +1,15 @@
-module fa(x,y,z,s,c);
-  output s,c;
-  input x,y,z;
-  wire w1,w2,w3,w4;
-  HF hf0(w1,w1,x,y);		 
-  HF hf1(w3,w4,w1,z);	 
-  assign s = w3;			 
-  assign c = w2 | w4;  
+module FA(x,y,z,s,c);
+input x,y,z;
+output s,c;
+wire w1,w2,w3;
+HA (x,y,w1,w2);
+HA (w1,z,s,w3);
+or (c,w2,w3);
 endmodule
 
-module HF(s,c,x,y);
-  output s,c;
-  input x,y;
-  assign s = x ^ y;   
-  assign c = x & y; 
+module HA(a,b,sum,carry);
+input a,b;
+output sum,carry;
+xor (sum,a,b);
+and (carry,a,b);
 endmodule
