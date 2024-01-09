@@ -1,14 +1,14 @@
 module decoder(y0,y1,y2,y3,y4,y5,y6,y7,s2,s1,s0);
 input s2,s1,s0;  
 output y0,y1,y2,y3,y4,y5,y6,y7;
-assign y7=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y6=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y5=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y4=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y3=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y2=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y1=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
-assign y0=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:));
+assign y7=s2?(s1?(s0?1:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:0));
+assign y6=s2?(s1?(s0?0:1):(s0?0:0)):(s1?(s0?0:0):(s0?0:0));
+assign y5=s2?(s1?(s0?0:0):(s0?1:0)):(s1?(s0?0:0):(s0?0:0));
+assign y4=s2?(s1?(s0?0:0):(s0?0:1)):(s1?(s0?0:0):(s0?0:0));
+assign y3=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?1:0):(s0?0:0));
+assign y2=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?0:1):(s0?0:0));
+assign y1=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?0:0):(s0?1:0));
+assign y0=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:1));
 endmodule 
 
 #Testbench of the 3 to 8 decoder so as to verify the above code is give below:-
