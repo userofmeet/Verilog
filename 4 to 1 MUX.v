@@ -12,7 +12,7 @@ module mux(s1,s0,i0,i1,i2,i3,y);
   input s1,s0,i0,i1,i2,i3;
   output y;
   wire w1,w2,w3,w4,w5,w6;
-  not (w1,w1);
+  not (w1,s1);
   not (w2,s0);
   and (w3,w1,w2,i0);
   and (w4,w1,s0,i1);
