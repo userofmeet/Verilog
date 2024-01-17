@@ -23,7 +23,7 @@ module mux(s1,s0,i0,i1,i2,i3,y);
   
 #Using conditional operator 
 
-module mj(i0,i1,i2,i3,s1,s0,out);
+module mux(i0,i1,i2,i3,s1,s0,out);
 output out;
 input i0,i1,i2,i3,s1,s0;
 wire w1,w2,w3,w4;
