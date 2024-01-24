@@ -1,4 +1,4 @@
-                                                                         #1011 sequence detector using Mealy machine 
+                                                #1011 sequence detector using Mealy machine 
 
 module mealyfsm( clk, rst, inp, outp); 
 input clk, rst, inp; 
