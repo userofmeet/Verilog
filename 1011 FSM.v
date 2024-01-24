@@ -90,7 +90,7 @@ module fsmtestbench();
 endmodule
 
 
-                                                                                #1011 sequence detector using a moore machine
+                                           #1011 sequence detector using a moore machine
 
 module moorefsm( clk, rst, inp, outp); 
 input clk, rst, inp; 
