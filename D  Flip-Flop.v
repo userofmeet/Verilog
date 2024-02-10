@@ -33,7 +33,7 @@ module ddtestbench();
     d=1'b1;
     #20
     d=1'b0;
-    #10
+    #50
     d=1'b1;
     end
 endmodule
