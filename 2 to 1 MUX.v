@@ -1,4 +1,4 @@
-#Using Data level modelling 
+//Using Data level modelling 
 
 module mux(s0,i0,i1,y);
   input s0,i0,i1;
@@ -6,7 +6,7 @@ module mux(s0,i0,i1,y);
   assign y = (s0?i1:i20);
   endmodule
  
-#For gate level modelling of the above 2 to 1 mux
+//For gate level modelling of the above 2 to 1 mux
 
 module mux(s0,i0,i1,y);
   input s0,i0,i1;
@@ -18,7 +18,7 @@ module mux(s0,i0,i1,y);
   or (y,w2,w3);
   endmodule 
   
-#Using conditional operator 
+//Using conditional operator 
 
 module mux(i0,i1,s0,out);
 output out;
