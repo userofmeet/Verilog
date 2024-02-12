@@ -6,7 +6,7 @@ module adder(x,y,z,s,c);
   assign {c, s} = x + y + z;
 endmodule
 
-#Testbench for the above code is given below:-
+//Testbench for the above code is given below:-
  
 module adder();
   reg [3:0] x,y,z;
