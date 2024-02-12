@@ -26,7 +26,5 @@ module upcounter_testbench();
     reset = 1'b1;
     #20;
     reset = 1'b0;
-    #500;
-    $finish;
   end
 endmodule
