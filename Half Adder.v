@@ -6,7 +6,7 @@ and a1(c,x,y);
 endmodule  
 
 
-#the testbench of half adder circuit for the above half adder verilog code is attached below:-
+//Testbench of half adder circuit for the above half adder verilog code is attached below:-
 
 module tb1();
   reg x,y;
