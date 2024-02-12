@@ -15,7 +15,7 @@ endmodule
 module upcounter_testbench();
   reg clk, reset;
   wire [3:0] counter;
-  verification dut(clk, reset, counter);
+  verification dut(clk, rst, count);
   initial
   begin
     clk = 1'b0;
@@ -23,8 +23,8 @@ module upcounter_testbench();
   end
   initial
   begin
-    reset = 1'b1;
+    rst = 1'b1;
     #20;
-    reset = 1'b0;
+    rst = 1'b0;
   end
 endmodule
