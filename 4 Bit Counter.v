@@ -1,6 +1,6 @@
 module counter(rst,count,clk);
 input clk,rst;
-output reg [2:0] count;
+  output reg [3:0] count;
 always @(posedge clk)
 begin
 if(rst)
