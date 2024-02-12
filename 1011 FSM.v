@@ -61,7 +61,7 @@ else begin
 end
 endmodule
 
-#Test-Bench for the above mealy machine:
+//Test-Bench for the above mealy machine:
 
 module fsmtestbench();
   reg clk,rst,inp;
@@ -140,7 +140,7 @@ begin
 end 
 endmodule 
 
-#Test-bench for the above code
+//Test-bench for the above code
 
 module fsmtestbench();
   reg clk,rst,inp;
