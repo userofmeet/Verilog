@@ -9,7 +9,7 @@ and a2(w3,w1,z);
 or o1(c,w3,w2);
 endmodule 
 
-#Testbench for the above full adder code to verify the RTL circuitry is attached below:-
+//Testbench for the above full adder code to verify the RTL circuitry is attached below:-
 
 module tb1();
   reg x,y,z;
