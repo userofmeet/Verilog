@@ -10,7 +10,7 @@ count<=count+1;
 end
 endmodule
 
-#Testbench to verify the 4 bit counter:-
+//Testbench to verify the 4 bit counter:-
 
 module upcounter_testbench();
   reg clk, reset;
