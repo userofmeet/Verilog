@@ -11,7 +11,7 @@ assign y1=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?0:0):(s0?1:0));
 assign y0=s2?(s1?(s0?0:0):(s0?0:0)):(s1?(s0?0:0):(s0?0:1));
 endmodule 
 
-#Testbench of the 3 to 8 decoder so as to verify the above code is give below:-
+//Testbench of the 3 to 8 decoder so as to verify the above code is give below:-
 
 module tb();
   reg s0,s1,s2;
