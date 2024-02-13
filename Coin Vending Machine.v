@@ -101,15 +101,15 @@ end
 endmodule
 
 //Tesbench for the above code
-module fsmtestbench();
+module fsmbench();
   reg clk,rst;
   reg [2:0]inp;
   wire outp;
-  fsm test( clk, rst, inp, outp);
+  fsm testing( clk, rst, inp, outp);
   initial
   begin
     clk=1'b0;
-    forever #5 clk=~clk;
+    forever #10 clk=~clk;
   end
   initial
   begin 
@@ -119,25 +119,10 @@ module fsmtestbench();
     #10
     rst=1'b0;
     inp=3'b101;
-    #10
-    inp=3'b000;
-    #10
+    #20
     inp=3'b001;
-    #10
-    inp=3'b001;
-    #10
-    inp=3'b001;
-    #10
-    inp=3'b001;
-    #10
-    inp=3'b001;
-    #10
-    inp=3'b000;
-    #10
-    inp=3'b000;
-    #10
+    #100 
     inp=3'b101;
-    #10
-    #10$stop;
+    #10 $stop;
   end
 endmodule
