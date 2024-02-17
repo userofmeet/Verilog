@@ -1,6 +1,6 @@
 ### Code
 
-```verilog
+```verilog 
 /*
 Verilog code and its test bench for a coin vending machine which accepts Rs1 , Rs 2 or Rs 5 coins. One coin at a time.
 Only after a total of Rs. 5 is reached the machine will release the cold-drink bottle and then return back to wait for
