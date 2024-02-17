@@ -1,3 +1,6 @@
+### Code
+
+```Verilog
 //Using Data level modelling 
 
 module mux(s1,s0,i0,i1,i2,i3,y);
@@ -83,3 +86,7 @@ begin
     forever #10 s1=~s1;
 end
 endmodule 
+```
+
+### Output
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/7c2ff9b7-47cd-4e47-b77a-e33059c1f57f)
