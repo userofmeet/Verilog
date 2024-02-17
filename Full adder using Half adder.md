@@ -1,6 +1,7 @@
 ### Code
 ```Verilog
 //Full adder using 2 half adders
+
 module FA(x,y,z,s,c);
 input x,y,z;
 output s,c;
