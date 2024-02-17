@@ -2,8 +2,9 @@
 
 ```verilog
 /*
-Verilog code and its test bench for a coin vending machine which accepts Rs1 , Rs 2 or Rs 5 coins. One coin at a time. Only after a total of Rs. 5 is reached the machine will release 
-the cold-drink bottle and then return back to wait for next transaction.
+Verilog code and its test bench for a coin vending machine which accepts Rs1 , Rs 2 or Rs 5 coins. One coin at a time.
+Only after a total of Rs. 5 is reached the machine will release the cold-drink bottle and then return back to wait for
+next transaction.
 */
 
 module fsm( clk, rst, inp, outp); 
@@ -131,4 +132,5 @@ module fsmbench();
 endmodule
 ```
 ### Output
-![image](https://github.com/userofmeet27/Verilog/assets/154442221/dcfa553b-71c7-4832-a0e7-efd8d90eec03)
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/b14287cc-7e2a-499d-94d2-2e9ed4d13d76)
+
