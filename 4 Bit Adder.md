@@ -1,3 +1,7 @@
+### Code
+```Verilog
+//Verilog code and its testbench program for 4 bit adder
+
 module adder(x,y,z,s,c);
   input [3:0] x, y;  
   input z;         
@@ -30,4 +34,8 @@ module adder();
     #20;
   end
 endmodule
+```
+
+### Output
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/4933847c-ef1f-43b6-bbc0-bbc82177a940)
 
