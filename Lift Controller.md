@@ -1,4 +1,5 @@
 # Code
+```verilog
 /*
 Verilog code for a lift controller which has the following requirements :-
 In lift controller there is two state of lift condition. One is “idle” and second is “running”. One
@@ -8,8 +9,8 @@ from higher(lower) stories and in between someone call the lift from lower(highe
 stop to lower(higher) stories if it is not passed and after that it will start to go towards first call.
 */
 
-//Solving the following problem with a mealy FSM :-
-```verilog
+//Solving the above problem using Mealy FSM:-
+
 module liftcontrol(clk,rst,up_signal,down_signal,current_floor);
 input clk,rst,up_signal,down_signal;
 output reg [2:0] current_floor;
