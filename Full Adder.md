@@ -1,4 +1,4 @@
-###Code
+### Code
 ```Verilog
 module fa(x,y,z,s,c);
 input x,y,z;
