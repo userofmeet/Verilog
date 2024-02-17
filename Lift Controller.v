@@ -8,6 +8,7 @@ stop to lower(higher) stories if it is not passed and after that it will start t
 */
 
 //Solving the following problem with a mealy FSM :-
+
 module liftcontrol(clk,rst,up_signal,down_signal,current_floor);
 input clk,rst,up_signal,down_signal;
 output reg [2:0] current_floor;
