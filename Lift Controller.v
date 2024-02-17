@@ -109,6 +109,7 @@ end
 endmodule
 
 //Testbench for the above code is given as follows :-
+
 module LIFTCONTROLLERTESTBENCH();
 reg clk,rst,up_signal,down_signal;
 wire [2:0]current_floor;
