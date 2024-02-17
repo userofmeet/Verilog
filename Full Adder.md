@@ -1,3 +1,5 @@
+###Code
+```Verilog
 module fa(x,y,z,s,c);
 input x,y,z;
 output s,c;
@@ -31,3 +33,6 @@ module tb1();
     z=1'b1;
   end 
 endmodule
+```
+### Output
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/06202a09-7390-40b8-a81f-b8401da7dcb8)
