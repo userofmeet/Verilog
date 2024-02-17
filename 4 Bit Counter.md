@@ -1,3 +1,8 @@
+# Code
+
+```Verilog
+//Verilog program for 4 bit Counter
+
 module counter(rst,count,clk);
 input clk,rst;
   output reg [3:0] count;
@@ -28,3 +33,6 @@ module upcounter_testbench();
     rst = 1'b0;
   end
 endmodule
+```
+# Output
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/0d8fc450-59ff-46f2-8915-31edcb6996bc)
