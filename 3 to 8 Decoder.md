@@ -1,3 +1,7 @@
+### Code
+
+```Verilog
+//Verilog program for 3 to 8 decoder
 module decoder(y0,y1,y2,y3,y4,y5,y6,y7,s2,s1,s0);
 input s2,s1,s0;  
 output y0,y1,y2,y3,y4,y5,y6,y7;
@@ -26,3 +30,7 @@ module tb();
     s2=1'b1;
   end
 endmodule
+```
+
+### Output
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/a1851975-6c0f-42fe-b1ce-4fc9d560eb1d)
