@@ -11,8 +11,8 @@ farm road light should subsequently turn Green (FG). Cycling through Yellow (HY)
 clock cycle. The farm road lights are to remain Green (FG) only while the detector's signal Car remains
 high, but no longer than for two clock cycles. The farm road lights are then to cycle through Yellow (FY)
 to Red (FR), at which point the highway lights should turn Green (HG). Cycling through farm road yellow (FY)
-also takes one clock cycle. Upon return to the initial state (HG, FR) the highway lights are not to be interrupted
-again for at least three clock cycles.
+also takes one clock cycle. Upon return to the initial state (HG, FR) the highway lights are not to be
+interrupted again for at least three clock cycles.
 */
 
 module liftcontroller(car,clk,rst,f,h);
