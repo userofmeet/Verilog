@@ -92,10 +92,6 @@ rst = 1'b1;
 #10;
 rst = 1'b0;
 car = 1'b1;
-#30
-car = 1'b0;
-#40
-car = 1'b1;
 #10
 car = 1'b0;
 end
@@ -103,4 +99,5 @@ endmodule
 ```
 
 ### Output 
-![image](https://github.com/userofmeet27/Verilog/assets/154442221/6cf13e4f-7712-4502-a89c-61b9589a489b)
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/7d7f7f68-6804-4d16-891f-65e5f7532a3c)
+
