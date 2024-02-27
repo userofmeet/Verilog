@@ -91,7 +91,7 @@ end
 
 3'b100:begin
 if (down_signal) begin 
-state <= 3'b001;
+state <= 3'b011;
 current_floor <= 3'b011;
 end
 else begin
