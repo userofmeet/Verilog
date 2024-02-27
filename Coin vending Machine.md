@@ -132,5 +132,8 @@ module fsmbench();
 endmodule
 ```
 ### Output
+#### Timing simulation
+![image](https://github.com/userofmeet27/Verilog/assets/154442221/5427101f-4c31-4fb2-a908-8488625ad732)
+#### Testbench simulation
 ![image](https://github.com/userofmeet27/Verilog/assets/154442221/b14287cc-7e2a-499d-94d2-2e9ed4d13d76)
 
