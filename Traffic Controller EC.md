@@ -1,4 +1,4 @@
-### Code
+## Code
 ```Verilog
 /*
 Traffic lights are installed on an intersection of a busy highway and a local farm road. Detectors are
@@ -114,7 +114,7 @@ end
 endmodule
 ```
 
-### Output
+## Output
 #### FSM
 ![image](https://github.com/userofmeet27/Verilog/assets/154442221/22b2108f-5988-4305-8e4f-af9d69c8a4df)
 #### Timing Simulation
