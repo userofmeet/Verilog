@@ -15,7 +15,7 @@ also takes one clock cycle. Upon return to the initial state (HG, FR) the highwa
 interrupted again for at least three clock cycles.
 */
 
-module trafficcontroller(clk,car,f,h,rst);
+module trafficlightcontroller(clk,car,f,h,rst);
 input clk,car,reset;
 output reg[1:0]f;
 output reg[1:0]h;
@@ -91,11 +91,11 @@ endmodule
 
 //Testbench for the above code is given as follows:-
 
-module tight();
+module tb();
 reg car,clk,reset;
 wire [1:0]f;
 wire [1:0]h;
-trafficcontroller k(clk,car,f,h,rst);
+trafficlightcontroller testbench(clk,car,f,h,rst);
 initial 
 begin
 clk = 1'b0;
