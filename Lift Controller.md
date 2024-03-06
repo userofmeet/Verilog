@@ -152,7 +152,7 @@ end
 endmodule
 ```
 
-### Output
+# Output
 
 ![image](https://github.com/userofmeet27/Verilog/assets/154442221/ad3a70b4-7139-4707-af7a-cc6f9a543987)
 
