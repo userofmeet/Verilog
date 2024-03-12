@@ -1,4 +1,4 @@
-## Code
+# Code
 Traffic lights are installed on an intersection of a busy highway and a local farm road. Detectors are
 installed on the intersection that cause signal Car to be asserted high in the presence of a car on the
 farm road approaching the intersection with the highway. In the initial state, the highway lights must
