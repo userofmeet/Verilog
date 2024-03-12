@@ -85,9 +85,9 @@ endcase
 end
 end
 endmodule
-
-//Testbench for the above code is given as follows:-
-
+```
+# Testbench
+``` Verilog
 module tb();
 reg car,clk,reset;
 wire [1:0]f;
