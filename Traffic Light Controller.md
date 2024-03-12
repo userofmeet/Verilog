@@ -1,6 +1,4 @@
 ## Code
-```Verilog
-/*
 Traffic lights are installed on an intersection of a busy highway and a local farm road. Detectors are
 installed on the intersection that cause signal Car to be asserted high in the presence of a car on the
 farm road approaching the intersection with the highway. In the initial state, the highway lights must
@@ -13,8 +11,7 @@ high, but no longer than for two clock cycles. The farm road lights are then to 
 to Red (FR), at which point the highway lights should turn Green (HG). Cycling through farm road yellow (FY)
 also takes one clock cycle. Upon return to the initial state (HG, FR) the highway lights are not to be
 interrupted again for at least three clock cycles.
-*/
-
+``` Verilog
 module trafficlightcontroller(clk,car,f,h,rst);
 input clk,car,reset;
 output reg[1:0]f;
