@@ -1,4 +1,4 @@
-### Code
+# Code
 ```Verilog
 module fa(x,y,z,s,c);
 input x,y,z;
@@ -10,9 +10,10 @@ and a1(w2,x,y);
 and a2(w3,w1,z);
 or o1(c,w3,w2);
 endmodule 
+```
 
-//Testbench for the above full adder code to verify the RTL circuitry is attached below:-
-
+# Testbench
+``` Verilog
 module tb1();
   reg x,y,z;
   wire c,s;
@@ -34,5 +35,5 @@ module tb1();
   end 
 endmodule
 ```
-### Output
+# Output
 ![image](https://github.com/userofmeet27/Verilog/assets/154442221/06202a09-7390-40b8-a81f-b8401da7dcb8)
