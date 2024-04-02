@@ -1,4 +1,5 @@
 # Code
+### Gate Level Modelling
 ```Verilog
 module fa(x,y,z,s,c);
 input x,y,z;
@@ -11,7 +12,15 @@ and a2(w3,w1,z);
 or o1(c,w3,w2);
 endmodule 
 ```
-
+### Data Flow Level Modelling
+``` Verilog
+module mk(a,b,cin,s,c);
+input a,b,cin;
+output s,c;
+assign s = a ^ b ^ cin;
+assign c = (a&b) | (c&(a^b));
+endmodule 
+```
 # Testbench
 ``` Verilog
 module tb1();
