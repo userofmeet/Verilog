@@ -30,6 +30,27 @@ end
 endmodule
 
 ```
+
+### Same functionality using Switch Case logic
+``` Verilog
+module jk_flip_flop(j,k,clk,reset,q);
+input j,k,reset,clk;
+output reg q;
+always @ (posedge clk or negedge reset)
+begin 
+if(~reset)
+q <= 0;			//<= is a non blocking assignment for seq logics so update the output at end of the clock event
+else begin 
+case({j,k})
+2'b00: q <= q; //no change
+2'b01: q <= 1'b0;
+2'b10: q <= 1'b1;
+2'b11: q <= ~q;
+endcase
+end
+end
+endmodule
+```
 ### Testbench
 ``` Verilog
 module jktb();
